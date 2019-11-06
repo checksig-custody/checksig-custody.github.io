@@ -41,27 +41,6 @@
     <meta property="og:description" content="{{site.description| strip_html }}">
     {% endif %}
 
-    {% if page.image.main %}
-    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/posts/{{page.image.main}}">
-    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/img/posts/{{page.image.main}}">
-    {% if page.image.thumb %}
-    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/posts/{{page.image.thumb}}">
-    {% endif %}
-    {% else %}
-    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/logo/dgi-logo.png">
-    {% endif %}
-
-    {% comment %}
-    {% if page.youtube %}
-    <meta property="og:video" content="https://www.youtube.com/embed/{{ page.youtube }}" />
-    <meta name="twitter:player" content="https://www.youtube.com/embed/{{ page.youtube }}">
-    {% endif %}
-    {% endcomment %}
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:creator" content="@DigitalGoldInst">
-    <meta name="twitter:site" content="@DigitalGoldInst">
-
     <meta property="og:site_name" content="{{site.name| strip_html}}">
 
     {% if page.url %}
