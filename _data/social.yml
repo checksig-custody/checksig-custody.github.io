@@ -1,2 +1,15 @@
 - social: fas fa-envelope
-  link: http://docs.google.com/forms/d/e/1FAIpQLSeSdkEDzVV_OGrTb6h07DGZ1pQ1QRxt9h0cRERJ4-4EeYMDng/viewform
+  link: info@checksig.io
+
+- social: fab fa-twitter
+  link: https://twitter.com/CheckSigCustody
+
+- social: fab fa-facebook-f
+  link: https://www.facebook.com/CheckSigCustody
+
+- social: fab fa-linkedin-in
+  link: https://www.linkedin.com/company/checksig
+
+- social: fab fa-github
+  link: https://www.github.com/checksig-custody
+  
