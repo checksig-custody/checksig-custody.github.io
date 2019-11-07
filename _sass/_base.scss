@@ -305,17 +305,33 @@
     
     // Sections
     .team {
+        background-image: url('../img/team.jpg');
         position: relative;
-        width: 100%;
-        min-height: auto;
+        display: block; 
+        background-size: cover;
         background-position: center;
-        //background-color: $theme-dark;
+        min-height: auto;
         hr {
             margin: 30px auto;
             //border-color: white;
         }
     }
-            
+
+    .about{
+        position: relative;
+        width: 100%;
+        min-height: auto;
+        background-position: center;
+        p{
+            padding: 0px 10px 0px;
+            text-align: justify;
+        }
+        li{
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    }
+           
     .section-heading {
         margin-top: 0;
     }
