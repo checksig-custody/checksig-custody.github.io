@@ -29,14 +29,3 @@ our font is [Montserrat Black](https://github.com/JulietaUla/Montserrat/blob/mas
   ![white/blue letters, transparent](cs-tagline-logo-neg.svg)
 * [cs-tagline-logo-neg-mono.svg](cs-tagline-logo-neg-mono.svg): white letters, transparent  
   ![white letters,transparent](cs-tagline-logo-neg-mono.svg)
-
-## Icons
-
-* [cs-icon-rot.svg](cs-icon-rot.svg): horizontal, transparent  
-  ![horizontal, transparent](cs-icon-rot.svg)
-* [cs-icon.svg](cs-icon.svg): vertical, transparent  
-  ![vertical, transparent](cs-icon.svg)
-* [cs-icon-neg-mono-rot.svg](cs-icon-neg-mono-rot.svg):horizontal, transparent  
-  ![white icon, horizontal, transparent](cs-icon-neg-mono-rot.svg)
-* [cs-icon-neg-mono.svg](cs-icon-neg-mono.svg):vertical, transparent  
-  ![white icon, vertical, transparent](cs-icon-neg-mono.svg)
