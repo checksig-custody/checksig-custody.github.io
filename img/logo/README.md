@@ -6,7 +6,7 @@ permalink: /logo/
 ---
 
 our blue is:  
-RGB 0 122 192 
+RGB 0 122 192  
 HEX 007ac0  
 CMYK 100 36 0 25
 
