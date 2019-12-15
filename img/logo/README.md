@@ -8,7 +8,7 @@ permalink: /logo/
 our blue is:  
 RGB 0 122 192 
 HEX 007ac0  
-CMYK 
+CMYK 100 36 0 25
 
 our font is [Montserrat Black](https://github.com/JulietaUla/Montserrat/blob/master/fonts/ttf/Montserrat-Black.ttf)
 
