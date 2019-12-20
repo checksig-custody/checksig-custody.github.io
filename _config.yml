@@ -3,8 +3,9 @@ title: "Checksig: Custody for Crypto Assets"
 name: CheckSig
 email:
 description: An implementation of the Opne Custody protocol.
-#baseurl: http://checksig-custody.github.io # the subpath of your site, e.g. /blog/
-url: http://checksig-custody.github.io
+
+#baseurl: http://checksig.io # the subpath of your site, e.g. /blog/
+url: http://checksig.io
 #logo: http://checksig.io/img/logo/cs-logo.png
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts

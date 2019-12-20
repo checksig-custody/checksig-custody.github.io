@@ -12,4 +12,7 @@
 
 - social: fab fa-github
   link: https://www.github.com/checksig-custody
+
+- social: fa fa-info
+  link: http://www.checksig.io/info
   
