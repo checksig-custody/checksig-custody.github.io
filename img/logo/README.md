@@ -1,18 +1,23 @@
 ---
-layout: page
-title: "CheckSig Logo"
+layout: readme
+title: "CheckSig Branding"
 subtitle: "Different versions of the CheckSig logo"
 permalink: /logo/
 ---
 
-our blue is:  
-RGB 0 122 192  
-HEX 007ac0  
-CMYK 100 36 0 25
+### Color
 
-our font is [Montserrat Black](https://github.com/JulietaUla/Montserrat/blob/master/fonts/ttf/Montserrat-Black.ttf)
+Our blue is:  
+* RGB 0 122 192  
+* HEX 007ac0  
+* CMYK 100 36 0 25
 
-## Logos
+### Font
+
+Our font is:
+* [Montserrat Black](https://github.com/JulietaUla/Montserrat/blob/master/fonts/ttf/Montserrat-Black.ttf)
+
+### Logos
 
 * [cs-logo.svg](./cs-logo.svg): black/blue letters, transparent  
   ![black/blue letters, transparent](./cs-logo.svg)
@@ -21,7 +26,7 @@ our font is [Montserrat Black](https://github.com/JulietaUla/Montserrat/blob/mas
 * [cs-logo-neg-mono.svg](cs-logo-neg-mono.svg): white letters, transparent  
   ![white letters,transparent](cs-logo-neg-mono.svg)
 
-## Logos with tagline
+### Logos with tagline
 
 * [cs-tagline-logo.svg](./cs-tagline-logo.svg): black/blue letters, transparent  
   ![black/blue letters, transparent](./cs-tagline-logo.svg)
