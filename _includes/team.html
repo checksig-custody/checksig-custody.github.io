@@ -6,125 +6,68 @@
                 <h2 class="section-heading">Team</h2>
                 <hr class="primary">
             </div>
+            {% for member in site.data.team %}
             <div class="col-lg-3 col-md-3 text-center">
-                    <a href="https://www.ametrano.net/about/">
-                    <img class="mx-auto rounded-circle" src="{{ site.baseurl }}/img/team/Ametrano.png" alt="Ametrano">
-                    <h4>Ferdinando M. Ametrano</h4>
-                    </a>
-                    <p class="text-muted">Executive Officer</p>
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="http://twitter.com/Ferdinando1970">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="http://linkedin.com/in/ferdinandoametrano/">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="http://github.com/fametrano">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="text-muted text-center text-small">
-                        <a href="http://dgi.io/">Digital Gold Institute</a> executive director,</br>
-                        <a href="http://ametrano.net/bbt/">Bitcoin and Blockchain Technology</a>
-                        adjunct <a href="http://www.unimib.it/ferdinando-maria-ametrano">professor at the University of Milano-Bicocca,
-                        <a href="http://cryptoassetlab.diseade.unimib.it/">Crypto Asset Lab</a> scientific director,
-                        <a href="http://ssrn.com/abstract=2425270">Hayek Money</a> promoter.
-                        Formerly: Head of Blockchain & Virtual Currencies at Intesa Sanpaolo,
-                        Scaling Bitcoin Planning Committee member.
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-3 text-center">
-                    <img class="mx-auto rounded-circle" src="{{ site.baseurl }}/img/team/Ehlers.png" alt="Ehlers">
-                    <h4>Eric Ehlers</h4>
-                    <p class="text-muted">Technical Officer</p>
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="https://twitter.com/CheckSigCTO">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.linkedin.com/in/eric-ehlers-9ba682/">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://github.com/eehlers">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="text-muted text-center text-small">     
-                        <a href="http://dgi.io/">Digital Gold Institute</a> technical officer,</br>  
-                        cofounder and director of <a href="https://www.reposit.be/">Reposit Limited</a>, 
-                        providing consulting services in the domain of quantitative finance. 
-                        <a href="https://www.quantlib.org/quantlibxl/">QuanLibXL</a> project founder. 
-                        Formerly: 12 years at J.P. Morgan Chase, first in IT management and later as technical 
-                        lead for front-office pricing spreadsheets.
-                
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-3 text-center">
-                    <img class="mx-auto rounded-circle" src="{{ site.baseurl }}/img/team/Mazzocchi.png" alt="Mazzocchi">
-                    <h4>Paolo Mazzocchi</h4>
-                    <p class="text-muted">Operating Officer</p>
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="https://twitter.com/MazzocchiPaolo">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.linkedin.com/in/paolo-mazzocchi-6672a591/">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://github.com/pmazzocchi">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="text-muted text-center text-small">
-                        <a href="http://dgi.io/">Digital Gold Institute</a> operating officer,</br>
-                        <a href="http://cryptoassetlab.diseade.unimib.it/">Crypto Asset Lab</a> faculty member,</br>
-                        <a href="http://ametrano.net/ird/">Interest Rate Derivatives</a>
-                        assistant lecturer at the University of Milano-Bicocca.</br>
-                        Formerly: Quantitative Finance consultant in Deloitte for 5 years, 
-                        Master's degree in Mathematical Engineering at Politecnico di Milano. 
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-3 text-center">
-                    <img class="mx-auto rounded-circle" src="{{ site.baseurl }}/img/team/Mandelli.png" alt="Mandelli">
-                    <h4>Lucia Mandelli</h4>
-                    <p class="text-muted">Business Developer</p>
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="https://twitter.com/luciamandelli">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li><li class="list-inline-item">
-                            <a href="https://www.linkedin.com/in/luciamandelli/">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        <li class="list-inline-item">
-                            <a href="https://github.com/lmandelli">
-                                    <i class="fab fa-github"></i>
-                             </a>
-                        </li>
-                    </ul>
-                    <p class="text-muted text-center text-small">
-                        <a href="http://dgi.io/">Digital Gold Institute</a> business developer,</br>
-                        bitcoin and blockchain passionate.</br>
-                        Formerly: 8 years of hands on entrepreneurial experience and Vice President of  <a href="http://www.upi.pr.it/unione-parmense-degli-industriali/gruppo-giovani/index.jsp">“Giovani Imprenditori di Confindustria Parma”</a> 
-                    </p>
-                </div>
+                <img class="mx-auto rounded-circle" src="{{ site.baseurl }}/{{ member.photo }}" alt="{{ member.photo_name }}" width=130>
+                <h4>{{ member.name }}</h4>
+                </a>
+                <p class="text-muted">{{ member.role }}</p>
+                {% if member.social_1 %}
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="{{ member.social_1_link }}">
+                            <i class="{{ member.social_1 }}"></i>
+                        </a>
+                    </li>
+                    {% if member.social_2 %}
+                    <li class="list-inline-item">
+                        <a href="{{ member.social_2_link }}">
+                            <i class="{{ member.social_2 }}"></i>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if member.social_3 %}
+                    <li class="list-inline-item">
+                        <a href="{{ member.social_3_link }}">
+                            <i class="{{ member.social_3 }}"></i>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if member.social_4 %}
+                    <li class="list-inline-item">
+                        <a href="{{ member.social_4_link }}">
+                            <i class="{{ member.social_4 }}"></i>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if member.social_5 %}
+                    <li class="list-inline-item">
+                        <a href="{{ member.social_5_link }}">
+                            <i class="{{ member.social_5 }}"></i>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if member.social_6 %}
+                    <li class="list-inline-item">
+                        <a href="{{ member.social_6_link }}">
+                            <i class="{{ member.social_6 }}"></i>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if member.social_7 %}
+                    <li class="list-inline-item">
+                        <a href="{{ member.social_7_link }}">
+                            <i class="{{ member.social_7 }}"></i>
+                        </a>
+                    </li>
+                    {% endif %}
+                </ul>
+                {% endif %}
+                <p class="text-muted text-center text-small">
+                    {{ member.desc }}
+                </p>
+            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
