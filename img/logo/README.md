@@ -1,20 +1,18 @@
 ---
 layout: readme
-title: "CheckSig Branding"
-subtitle: "Different versions of the CheckSig logo"
+title: "CheckSig Logo"
+subtitle: "Details about CheckSig logo"
 permalink: /logo/
 ---
 
-### Color
+### Our blue color is
 
-Our blue is:  
 * RGB 0 122 192  
 * HEX 007ac0  
 * CMYK 100 36 0 25
 
-### Font
+### Our font is
 
-Our font is:
 * [Montserrat Black](https://github.com/JulietaUla/Montserrat/blob/master/fonts/ttf/Montserrat-Black.ttf)
 
 ### Logos
