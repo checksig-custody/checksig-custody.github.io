@@ -13,7 +13,7 @@ permalink: /logo/
 
 ### Our font is
 
-* [Montserrat Black](https://github.com/JulietaUla/Montserrat/blob/master/fonts/ttf/Montserrat-Black.ttf)
+* [Montserrat Black](https://fonts.google.com/specimen/Montserrat) ([ttf](https://github.com/google/fonts/tree/master/ofl/montserrat))
 
 ### Logos
 
