@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: readme
 title: "Privacy Statement"
 permalink: /privacy/
 ---
