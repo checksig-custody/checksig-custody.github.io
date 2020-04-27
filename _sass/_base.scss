@@ -183,7 +183,7 @@
             height: 100%;
         }
         .bg {
-            background-image: url('../img/header.jpg');
+            background-image: url('../img/header.png');
             position: fixed;
             display: block;
             top: 0;
@@ -202,7 +202,7 @@
             width: 100%;
             .header-content-inner {
                 img{
-                    background-color: rgba(0, 0, 0, 0.2);
+                    background-color: rgba(0, 0, 0, 0.1);
                 }
                 h1 {
                     //font-weight: 100;
@@ -230,7 +230,7 @@
                     margin-bottom: 20px;
                     display: block;
                     color: white;
-                    background-color: rgba(0, 0, 0, 0.5);
+                    background-color: rgba(0, 0, 0, 0.2);
                 }
             }
         }
