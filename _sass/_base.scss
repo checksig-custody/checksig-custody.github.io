@@ -82,7 +82,7 @@
 
     // Navigation
     .navbar-default {
-        background-color: transparent;
+        background-color: rgb(26, 23, 27) ;
         border-color: rgba($theme-dark, .5);
         @include sans-serif-font;
         @include transition-all;
