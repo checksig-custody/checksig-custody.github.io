@@ -1,0 +1,45 @@
+---
+layout: page
+---
+
+<section id="posts" class="newspage" style="background-color:#f5f5f5;">
+    <div class=" container">
+        <div class="row col-lg-8 col-lg-offset-2">
+            <h2>{{ page.title }}</h2>
+
+            {% if page.image.main %}
+            <p>
+                <img src="{{ site.baseurl }}/img/posts/{{ page.image.main }}" class="aligncenter" width="100%"
+                    height="auto">
+            </p>
+            {% else if page.youtube %}
+            <div class='embed-container'>
+                <iframe src='https://www.youtube.com/embed/{{ page.youtube }}' frameborder='0' allowfullscreen></iframe>
+            </div>
+            {% endif %}
+
+            <article class="post">
+                <p class="pdate">{{ page.date | date: "%b %e, %Y" }} |
+                    <i> {{ page.author }}</i>
+                </p>
+
+                <p>{% include share-bar.html %}</p>
+
+                <h3>{{ page.subtitle }}</h3>
+
+                <p>{{ content }}</p>
+
+                {% if page.youtube %}
+                <div class='embed-container'>
+                    <iframe src='https://www.youtube.com/embed/{{ page.youtube }}' frameborder='0'
+                        allowfullscreen></iframe>
+                </div>
+                {% endif %}
+
+            </article>
+        </div>
+    </div>
+    <div class="col-lg-8 col-lg-offset-2 text-center">
+        <a href="{{ site.baseurl }}" class="btn btn-primary btn-xl">Back</a>
+    </div>
+</section>
