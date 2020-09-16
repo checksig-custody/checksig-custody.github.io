@@ -6,7 +6,7 @@ subtitle: "Satec Underwriting, società del gruppo Cattolica Assicurazioni, copr
 author: "CheckSig Staff"
 image:
     main: 20200916-Cattolica.png
-    thumb: 20200916-Cattolica.png
+    thumb: 20200916-Cattolica-thumb.png
 published: true
 newsfeed: true
 ---
