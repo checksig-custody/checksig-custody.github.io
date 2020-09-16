@@ -4,8 +4,9 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Founders</h2>
-                <hr>
             </div>
+        </div>
+        <div class="row padding">
             {% for member in site.data.team %}
             {% if member.founder == true %}
             <div class="col-lg-4 col-md-3 text-center">
@@ -76,8 +77,9 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Team Members</h2>
-                <hr>
             </div>
+        </div>
+        <div class="row padding">
             {% for member in site.data.team %}
             {% if member.founder == false %}
             <div class="col-lg-6 col-md-3 text-center">
