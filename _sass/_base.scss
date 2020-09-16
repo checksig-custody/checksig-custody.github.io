@@ -20,7 +20,7 @@
 
     a {
         @include transition-all;
-        color: rgb(112, 150, 255);
+        color: rgb(99, 153, 174);
         &:hover,
         &:focus {
             color: darken($theme-primary, 10%);
@@ -82,7 +82,7 @@
 
     // Navigation
     .navbar-default {
-        background-color: black;
+        background-color: transparent;
         border-color: rgba($theme-dark, .5);
         @include sans-serif-font;
         @include transition-all;
@@ -116,22 +116,22 @@
                     > a,
                     > a:focus {
                         color: white !important;
-                        background-color: black;
+                        background-color: rgb(26, 23, 27);
                         &:hover {
-                            background-color: black;
+                            background-color: rgb(26, 23, 27);
                         }
                     }
                 }
             }
         }
         @media (min-width: 768px) {
-            background-color: rgba(black, .0);
-            border-color: rgba(black, .0);
+            background-color: transparent;
+            border-color: rgba(rgb(26, 23, 27), .0);
             .navbar-header .navbar-brand {
-                color: rgba(black, .7);
+                color: rgba(rgb(26, 23, 27), .7);
                 &:hover,
                 &:focus {
-                    color: black;
+                    color: rgb(26, 23, 27);
                 }
             }
             .nav > li > a,
@@ -142,7 +142,7 @@
                 }
             }
             &.affix {
-                background-color: black; // background not in top-page 
+                background-color: rgb(26, 23, 27); // background not in top-page 
                 //border-color: rgba($theme-dark, .5);
                 .navbar-header .navbar-brand {
                     color: white;
@@ -173,7 +173,7 @@
         min-height: auto;
         @include background-cover;
         text-align: center;
-        color: black;
+        color: rgb(26, 23, 27);
         .bg-wrap {
             clip: rect(0, auto, auto, 0);
             position: absolute;
@@ -183,7 +183,7 @@
             height: 100%;
         }
         .bg {
-            background-image: url('../img/header.png');
+            background-image: url('../img/header_new.jpg');
             position: fixed;
             display: block;
             top: 0;
@@ -206,7 +206,7 @@
                     font-size: 50px;
                     margin-top: 100;
                     margin-bottom: 100;
-                    color: white;
+                    color:rgb(99, 153, 174);
                     font-weight: bold;
                 }
                 h2 {
@@ -226,7 +226,7 @@
                     font-size: 14px;
                     margin-bottom: 20px;
                     display: block;
-                    color: white;
+                    color: rgb(26, 23, 27);
                 }
             }
         }
@@ -257,7 +257,7 @@
     // Homepage Footer
     footer {
         padding: 25px 0;
-        background-color: black;
+        background-color: rgb(26, 23, 27);
         text-align: center;
 
         .list-inline-item {
@@ -289,7 +289,7 @@
                 color: $theme-primary;
                 border-radius: 100%;
                 outline: none;
-                background-color: black;
+                background-color: rgb(26, 23, 27);
                 color: white;
                 &:active,
                 &:focus,
