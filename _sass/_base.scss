@@ -245,6 +245,94 @@
     }
 }
 
+.trt {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    @include background-cover;
+    background-image: url('../img/trt_cs.jpg');   
+    text-align: center;
+    color: black;
+    .bg-wrap {
+        clip: rect(0, auto, auto, 0);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .bg {
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+    .bg-fixed {
+        position: fixed;
+        transform: translateZ(0);
+        will-change: transform;
+    }
+    .header-content {
+        position: relative;
+        text-align: center;
+        padding: 100px 15px 100px;
+        width: 100%;
+        .header-content-inner {
+            h1 {
+                //font-weight: 100;
+                font-size: 25px;
+                margin-top: 100;
+                margin-bottom: 100;
+                color: white;
+                font-weight: bold;
+            }
+            h2 {
+                //font-weight: 100;
+                font-size: 30px;
+                margin-top: 100;
+                margin-bottom: 100;
+                color: white;
+                font-weight: bold;
+            }
+            hr {
+                margin: 30px auto;
+            }
+            p {
+                //font-weight: 100;
+                font-size: 14px;
+                margin-bottom: 20px;
+                display: block;
+                color: white;
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        min-height: 100%;
+        .header-content {
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            padding: 0 50px;
+            .header-content-inner {
+                max-width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+                p {
+                    font-size: 18px;
+                    max-width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+    }
+}
+
     // Homepage Footer
     footer {
         padding: 25px 0;
