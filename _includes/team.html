@@ -9,7 +9,7 @@
         <div class="row padding">
             {% for member in site.data.team %}
             {% if member.founder == true %}
-            <div class="col-lg-4 col-md-3 text-center">
+            <div class="col-lg-6 col-md-3 text-center">
                 <img class="mx-auto rounded-circle" src="{{ site.baseurl }}/{{ member.photo }}"
                     alt="{{ member.photo_name }}" width=130>
                 <h4>{{ member.name }}</h4>
