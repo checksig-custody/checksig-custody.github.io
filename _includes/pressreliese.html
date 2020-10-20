@@ -1,0 +1,17 @@
+<section class="pressreliese" id="talkingaboutus">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Talking about us</h2>
+            </div>
+        </div>
+        <div class="row padding">
+            {% for member in site.data.partners %}
+            <div class="partners-i">
+                <a href="{{ member.link }}" class="partners-link">
+                    <img src="{{ member.logo }}" alt="{{ member.name }}" width="{{ member.size }}">
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+</section>
