@@ -11,19 +11,6 @@
   social_3: fab fa-github
   social_3_link: http://github.com/fametrano
 
-- name: Eric Ehlers
-  founder: true
-  role: Technical Officer
-  photo: img/team/Ehlers_bw.png
-  photo_name: Ehlers
-  desc: <a href="http://dgi.io/">Digital Gold Institute</a> technical officer,</br> cofounder and director of <a href="https://www.reposit.be/">Reposit Limited</a>, providing consulting services in the domain of quantitative finance. <a href="https://www.quantlib.org/quantlibxl/">QuanLibXL</a> project founder. Formerly 12 years at J.P. Morgan Chase, first in IT management and later as technical lead for front-office pricing spreadsheets.
-  social_1: fab fa-twitter
-  social_1_link: http://twitter.com/CheckSigCTO
-  social_2: fab fa-linkedin-in
-  social_2_link: https://www.linkedin.com/in/eric-ehlers-9ba682/
-  social_3: fab fa-github
-  social_3_link: https://github.com/eehlers
-
 - name: Paolo Mazzocchi
   role: Operating Officer
   founder: true
