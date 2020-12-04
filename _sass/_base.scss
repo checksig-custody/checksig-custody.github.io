@@ -292,6 +292,129 @@
             }
         }
     }
+
+    .header-trt {
+        position: relative;
+        width: auto;
+        min-height: auto;
+        @include background-cover;
+        background-position: center;
+        background-image: url('../img/header-trt.jpg');
+        text-align: center;
+        color: white;
+        // desktop option
+        min-height: 40%;
+        .header-content {
+            position: middle;
+            text-align: center;
+            padding: 100px 15px 100px;
+            top: 50%;
+            .header-content-inner {
+                max-width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+                h1 {
+                    padding: 100px;
+                    font-size: 25px;
+                    color: white;
+                    font-weight: bold;
+                }
+                h2 {
+                    font-size: 30px;
+                    margin-top: 100;
+                    margin-bottom: 100;
+                    color: white;
+                }
+                p {
+                    font-size: 20px;
+                    max-width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+        // mobile option
+        @media (max-width: 768px){
+            .header-content {
+                position: middle;
+                text-align: center;
+                padding: 100px 15px 100px;
+                width: 100%;
+                .header-content-inner {
+                    h1 {
+                        padding: 100px;
+                        font-size: 25px;
+                        color: white;
+                        font-weight: bold;
+                    }
+                    h2 {
+                        font-size: 20px;
+                        margin-top: 100;
+                        margin-bottom: 100;
+                        color: white;
+                    }
+                    hr {
+                        margin: 30px auto;
+                        border-color: white;
+                    }
+                    p {
+                        font-size: 16px;
+                        margin-bottom: 20px;
+                        display: block;
+                    }
+                }
+            }
+        }
+        }
+    
+        // Homepage Footer
+        footer {
+            padding: 25px 0;
+            background-color: rgb(26, 23, 27);
+            text-align: center;
+    
+            .list-inline-item {
+                position: center;
+                display: inline-block;
+                vertical-align: top;
+                box-sizing: border-box;
+                line-height: 130px;
+                text-align: center;
+              }
+    
+            p{
+                color:white;
+                font-size: 10px;
+            }
+    
+            ul.social-buttons {
+                margin-bottom: 0;
+                li {
+                  a {
+                    font-size: 15px;
+                    line-height: 40px;
+                    display: block;
+                    width: 40px;
+                    height: 40px;
+                    -webkit-transition: all 0.3s;
+                    -moz-transition: all 0.3s;
+                    transition: all 0.3s;
+                    color: $theme-primary;
+                    border-radius: 100%;
+                    outline: none;
+                    background-color: rgb(26, 23, 27);
+                    color: white;
+                    &:active,
+                    &:focus,
+                    &:hover {
+                      background-color: $theme-primary;
+                      color: white
+                    }
+    
+                  }
+                }
+            }
+        }
     
     // Sections
     .team {
